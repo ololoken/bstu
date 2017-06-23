@@ -22,7 +22,7 @@
        <ul>
          <li><a href="#"><object id="inactive" data="images/cafedraSmallLogo.svg" type="image/svg+xml"></object><object id="active" data="images/cafedraSmallLogoInversed.svg" type="image/svg+xml"></object>&nbsp О кафедре</a></li>
          <li><a href="#"><object id="inactive" data="images/studySmallLogo.svg" type="image/svg+xml"></object><object id="active" data="images/studySmallLogoInversed.svg" type="image/svg+xml"></object>&nbsp Учебная работа</a></li>
-         <li><a href="http://local.isit.bstu.by1/"><object id="inactive" data="images/main.svg" type="image/svg+xml"></object><object id="active" data="images/mainInversed.svg" type="image/svg+xml"></object>&nbsp На главную</a></li>
+         <li><a href="http://test1.ru/"><object id="inactive" data="images/main.svg" type="image/svg+xml"></object><object id="active" data="images/mainInversed.svg" type="image/svg+xml"></object>&nbsp На главную</a></li>
          <li><a href="#"><object id="inactive" data="images/studentSmallLogo.svg" type="image/svg+xml"></object><object id="active" data="images/studentSmallLogoInversed.svg" type="image/svg+xml"></object>&nbsp Студентам</a></li>
          <li><a href="https://www.belstu.by/"><object id="inactive" data="images/bstuSmallLogo.svg" type="image/svg+xml"></object><object id="active" data="images/bstuSmallLogoInversed.svg" type="image/svg+xml"></object>&nbsp Сайт БГТУ</a></li>
         </ul>

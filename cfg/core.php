@@ -1,11 +1,11 @@
-<?php defined('INDEX') OR die('������ ������ � �������� ��������!');
+<?php defined('INDEX') OR die('Прямой доступ к странице запрещён!');
 
 // MYSQL
 class MyDB
 {
-var $dblogin = "root"; // ��� ����� � ���� ������
-var $dbpass = ""; // ��� ������ � ���� ������
-var $db = "isit"; // �������� ���� ��� �����
+var $dblogin = "root"; 
+var $dbpass = ""; 
+var $db = "isit"; 
 var $dbhost="localhost";
 
 var $link;

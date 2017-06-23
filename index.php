@@ -1,13 +1,13 @@
 <?php session_start();
-define("INDEX", ""); // ��������� ��������� �������� �����������
+define("INDEX", ""); // УСТАНОВКА КОНСТАНТЫ ГЛАВНОГО КОНТРОЛЛЕРА
 
-require_once($_SERVER[DOCUMENT_ROOT]."/cfg/core.php"); // ����������� ����
+require_once($_SERVER[DOCUMENT_ROOT]."/cfg/core.php"); 
 
-// ����������� � ��
+
 $db = new MyDB();
 $db->connect();
 
-// ������� ����������
+// ГЛАВНЫЙ КОНТРОЛЛЕР
 switch ($_GET[option]) {
 case "page":
 include($_SERVER[DOCUMENT_ROOT]."/com/page.php");
