@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #2c3e50;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style-type: none;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    background: #3498db;
+    height: 120px;
+    z-index: 6;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(50, 48, 50, 0.75);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(50, 48, 50, 0.75);
+    box-shadow: 0px 3px 5px 0px rgba(50, 48, 50, 0.75);
+}
+
+#logo {
+    width: 100px;
+}
+
+#flexSupport {
+    visibility: hidden;
+    width: 100px;
+}
+
+nav {
+    z-index: 5;
+    margin: auto;
+    top: 10px;
+    background: #2980b9;
+    border-radius: 5px;
+    width: 1000px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+nav li {
+    flex-grow: 1;
+}
+
+nav ul li > a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li:first-child > a {
+    border-radius: 5px 0 0 5px;
+}
+
+nav ul li:last-child > a {
+    border-radius: 0 5px 5px 0;
+}
+
+nav ul li > a:hover {
+    background: #ecf0f1;
+
+    color: #2980b9;
+}
+
+#inactive {
+    position: absolute;
+    width: 30px;
+}
+
+#active {
+    visibility: hidden;
+    width: 30px;
+}
+
+a:hover #inactive {
+    visibility: hidden;
+}
+
+a:hover #active {
+    visibility: visible;
+}
+
+wrapper {
+    position: relative;
+    background: #bdc3c7;
+    min-height: 200px;
+    display: flex;
+    z-index: 4;
+}
+
+.content {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.newsList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 1000px;
+    height: 180px;
+}
+
+.tooltip {
+    position: relative;
+    height: 125px;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 125px;
+    font-size: 10pt;
+    text-align: center;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip .imgContainer {
+    overflow: hidden;
+    width: 125px;
+    height: 125px;
+    border-radius: 0 0 5px 5px;
+
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip:hover .imgContainer{
+    height: 150px ;
+    background: #3498db;
+
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.tooltip:hover object#moreNews {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.tooltip object#moreNews {
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.mainNews {
+    width: 1000px;
+    min-height: 300px;
+}
+
+.article {
+    background: #ecf0f1;
+    padding: 0 0 5px 5px;
+}
+
+h4 {
+    font-size: 12pt;
+    margin-top: 10px;
+}
+
+.mainNews .imageContainer {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 120px;
+    height: 0;
+    transition: 1s all;
+}
+
+.imageContainer.off{
+    opacity: 1;
+    height: 130px;
+    transition: 1s all;
+}
+
+#textContainer {
+    overflow: hidden;
+    height: 30px;
+    font-size: 10pt;
+    line-height: 1.1em;
+    transition: 1s all;
+}
+
+#textContainer.off {
+    opacity: 1;
+    height: 150px;
+    transition: 1s all;
+	}
+
+.click {
+    margin: 5px 0 0 5px;
+    text-align: center;
+    font-size: 10pt;
+    position: relative;
+    float: right;
+    width: 90px;
+    border-radius: 0 0 5px 5px;
+    border: none;
+    background-color: #3498db;
+
+    -webkit-box-shadow: 0px 3px 2px 0px rgba(50, 48, 50, 0.75);
+    -moz-box-shadow: 0px 3px 2px 0px rgba(50, 48, 50, 0.75);
+    box-shadow: 0px 3px 2px 0px rgba(50, 48, 50, 0.75);
+}
+
+.click:hover {
+    background-color: lightblue;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+footer {
+    position: relative;
+    background: #3498db;
+    height: 150px;
+    z-index: 6;
+
+    -webkit-box-shadow: 0px -1px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px -1px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px -1px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.footerContent {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+#logoInversed {
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+}

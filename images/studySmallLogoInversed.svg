@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#2980B9;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#2980B9;stroke-width:0.75;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#2980B9;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<g id="Слой_1_1_">
+</g>
+<g id="book">
+	<g id="XMLID_1_">
+		<g>
+			<path class="st0" d="M8.3,8H8.2"/>
+			<path class="st0" d="M5.8,7C5.1,6.3,4.7,5.4,4.7,4.4c0-2,1.6-3.6,3.6-3.6s3.6,1.6,3.6,3.6c0,1-0.4,2-1.1,2.6"/>
+			<path class="st0" d="M8.2,8L8.2,8C8.1,8,8.1,8,8,8"/>
+			<polyline class="st1" points="2,6.3 2,6.4 2,14.9 			"/>
+			<polyline class="st1" points="8.2,6.3 8.2,6.3 8.2,8 8.2,8 8.2,8 8.2,14.9 			"/>
+			<polyline class="st1" points="14.1,6.3 14.1,6.4 14.1,14.1 14.1,14.9 			"/>
+			<path class="st2" d="M1.9,14.9c0.1,0,0.1,0,0.2,0.1c0.6,0.3,1.6,0.7,3,0.7s2.4-0.5,3-0.7"/>
+			<path class="st2" d="M8.1,14.9c0.5,0.3,1.7,0.8,3.2,0.7c1.4,0,2.4-0.4,2.9-0.7l0,0"/>
+			<path class="st2" d="M8.1,6.3C8.2,6.3,8.2,6.3,8.1,6.3C8.7,6.6,9.6,6.9,10.8,7c0.2,0,0.3,0,0.5,0c1.3,0,2.3-0.4,2.8-0.7
+				c0.1,0,0.1-0.1,0.1-0.1"/>
+			<path class="st2" d="M1.9,6.3c0,0,0.1,0,0.1,0.1C2.6,6.6,3.7,7.1,5,7c0.3,0,0.6,0,0.8,0c1-0.1,1.8-0.4,2.2-0.7"/>
+		</g>
+	</g>
+	<circle class="st2" cx="1.6" cy="9.3" r="0.6"/>
+	<circle class="st2" cx="14.5" cy="9.3" r="0.6"/>
+</g>
+</svg>
